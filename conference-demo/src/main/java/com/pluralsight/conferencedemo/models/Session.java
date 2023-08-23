@@ -1,10 +1,9 @@
 package com.pluralsight.conferencedemo.models;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity(name = "sessions")
 public class Session {
@@ -14,6 +13,14 @@ public class Session {
     private String session_name;
     private String session_description;
     private Integer session_length;
+
+    @ManyToMany
+    @JoinTable(
+            name = "session_speakers",
+            joinColumns = @JoinColumn(name = "session_id"),
+            inverseJoinColumns = @JoinColumn(name = "speaker_id")
+    )
+    private List<Speaker> speakers;
     public Session() {
 
     }
@@ -48,5 +55,13 @@ public class Session {
 
     public void setSession_length(Integer session_length) {
         this.session_length = session_length;
+    }
+
+    public List<Speaker> getSpeakers() {
+        return speakers;
+    }
+
+    public void setSpeakers(List<Speaker> speakers) {
+        this.speakers = speakers;
     }
 }
