@@ -28,9 +28,6 @@ public class MethodOverLoading {
         System.out.println("Method with (double, int)");
     }
 
-//	static void add(int a, int b){
-//		System.out.println("Method with (int, int)"); (Not possible: Compile Time Error)
-//	}
 
     void add(int ... a){		//var args (int � a) are nothing but the arrays (int[] a).
         System.out.println("Var args method (int... a)");
