@@ -12,5 +12,7 @@ public class TestPolymorphism {
         // Object referred to => Dog
         // Dog's bark method is called.
         System.out.println(animal2.shout());
+        
+         animal2.run();
     }
 }
