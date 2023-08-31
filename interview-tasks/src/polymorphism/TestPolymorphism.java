@@ -7,7 +7,10 @@ public class TestPolymorphism {
         System.out.println(animal1.shout()); // Don't Know!
 
         Animal animal2 = new Dog();
-        
+
+        // Reference variable type => Animal
+        // Object referred to => Dog
+        // Dog's bark method is called.
         System.out.println(animal2.shout());
     }
 }
