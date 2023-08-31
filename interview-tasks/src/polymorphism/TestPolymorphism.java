@@ -12,7 +12,9 @@ public class TestPolymorphism {
         // Object referred to => Dog
         // Dog's bark method is called.
         System.out.println(animal2.shout());
-        
-         animal2.run();
+
+        // Even though dog has a method run,it cannot be
+        // invoked using super class reference variable
+        animal2.run();//COMPILE ERROR
     }
 }
