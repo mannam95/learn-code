@@ -40,7 +40,20 @@
     "last_opened_file_path": "/home/srinath/Documents/git/java_learning/interview-tasks"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EncapsulationExample">
+  <component name="RunManager" selected="Application.BreakExamples">
+    <configuration name="BreakExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loopAndFlow.BreakExamples" />
+      <module name="prj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loopAndFlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncapsulationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encapsulation.EncapsulationExample" />
       <module name="prj1" />
@@ -50,13 +63,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="prj1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreakExamples" />
         <item itemvalue="Application.EncapsulationExample" />
         <item itemvalue="Application.TestPolymorphism" />
         <item itemvalue="Application.MethodOverLoading" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
