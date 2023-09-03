@@ -29,9 +29,9 @@ public class ForLoopExample {
         // Output is 12345
 
         // Any of 3 parts in a for can be empty
-        for (;;) {
-            System.out.print("I will be looping for ever..");
-        }
+//        for (;;) {
+//            System.out.print("I will be looping for ever..");
+//        }
         // Result : Infinite loop
 
     }
