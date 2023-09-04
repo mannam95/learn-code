@@ -14,7 +14,7 @@ public class ForLoopExample {
         // Operation (Increment or Decrement usually) => i++
 
         // There can be multiple statements in Initialization
-        // or Operation seperated by commas
+        // or Operation separated by commas
         for (int i = 0, j = 0; i < 10; i++, j--) {
             System.out.print(j);
         }

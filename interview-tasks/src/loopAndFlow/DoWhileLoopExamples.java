@@ -8,10 +8,10 @@ public class DoWhileLoopExamples {
         do {
             System.out.print(count);
             count++;
-        } while (count < 5);// while this condn is true, loop is executed.
+        } while (count < 5);// while this condition is true, loop is executed.
         // output is 01234
 
-        // Code in do while is executed atleast once.
+        // Code in do while is executed at-least once.
         count = 5;
         do {
             System.out.print(count);

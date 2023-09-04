@@ -5,7 +5,7 @@ public class WhileLoopExamples {
         int count = 0;
         // While is used when it is not clear how many times loop has to be
         // executed.
-        while (count < 5) {// while this condn is true, loop is executed.
+        while (count < 5) {// while this condition is true, loop is executed.
             System.out.print(count);
             count++;
         }// output is 01234
@@ -13,7 +13,7 @@ public class WhileLoopExamples {
         // Depending on the condition, code in while might not be executed at
         // all.
         count = 5;
-        while (count < 5) {// condn is false. So, code in while is not executed.
+        while (count < 5) {// condition is false. So, code in while is not executed.
             System.out.print(count);
             count++;
         }// Nothing is printed to output
