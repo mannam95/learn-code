@@ -40,9 +40,9 @@
     "last_opened_file_path": "/home/srinath/Documents/git/java_learning/interview-tasks"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DoWhileLoopExamples">
-    <configuration name="BreakExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopAndFlow.BreakExamples" />
+  <component name="RunManager" selected="Application.DivideByZero">
+    <configuration name="ContinueExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loopAndFlow.ContinueExamples" />
       <module name="prj1" />
       <extension name="coverage">
         <pattern>
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContinueExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopAndFlow.ContinueExamples" />
+    <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling.DivideByZero" />
       <module name="prj1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loopAndFlow.*" />
+          <option name="PATTERN" value="exceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideByZero" />
         <item itemvalue="Application.DoWhileLoopExamples" />
         <item itemvalue="Application.WhileLoopExamples" />
         <item itemvalue="Application.ForLoopExample" />
         <item itemvalue="Application.ContinueExamples" />
-        <item itemvalue="Application.BreakExamples" />
       </list>
     </recent_temporary>
   </component>
