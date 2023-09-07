@@ -40,46 +40,7 @@
     "last_opened_file_path": "/home/srinath/Documents/git/java_learning/interview-tasks"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestMethod1">
-    <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionHandling.DivideByZero" />
-      <module name="prj1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoWhileLoopExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopAndFlow.DoWhileLoopExamples" />
-      <module name="prj1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loopAndFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionHandling.Example1" />
-      <module name="prj1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestMethod4">
     <configuration name="InvalidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionHandling.InvalidNumber" />
       <module name="prj1" />
@@ -106,13 +67,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMethod2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverloading.TestMethod2" />
+      <module name="prj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodOverloading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMethod3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverLoading.TestMethod3" />
+      <module name="prj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodOverLoading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMethod4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverLoading.TestMethod4" />
+      <module name="prj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodOverLoading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMethod4" />
+        <item itemvalue="Application.TestMethod3" />
+        <item itemvalue="Application.TestMethod2" />
         <item itemvalue="Application.TestMethod1" />
         <item itemvalue="Application.InvalidNumber" />
-        <item itemvalue="Application.Example1" />
-        <item itemvalue="Application.DivideByZero" />
-        <item itemvalue="Application.DoWhileLoopExamples" />
       </list>
     </recent_temporary>
   </component>
