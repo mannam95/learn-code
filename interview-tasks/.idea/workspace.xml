@@ -40,7 +40,7 @@
     "last_opened_file_path": "/home/srinath/Documents/git/java_learning/interview-tasks"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InvalidNumber">
+  <component name="RunManager" selected="Application.TestMethod1">
     <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionHandling.DivideByZero" />
       <module name="prj1" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoopExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopAndFlow.WhileLoopExamples" />
+    <configuration name="TestMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverLoading.TestMethod1" />
       <module name="prj1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loopAndFlow.*" />
+          <option name="PATTERN" value="MethodOverLoading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMethod1" />
         <item itemvalue="Application.InvalidNumber" />
         <item itemvalue="Application.Example1" />
         <item itemvalue="Application.DivideByZero" />
         <item itemvalue="Application.DoWhileLoopExamples" />
-        <item itemvalue="Application.WhileLoopExamples" />
       </list>
     </recent_temporary>
   </component>

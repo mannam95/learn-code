@@ -1,4 +1,6 @@
-public class MethodOverLoading {
+package MethodOverLoading;
+
+public class TestMethod1 {
 
     //Yes we can overload static method
     static void add(int a){
@@ -38,7 +40,7 @@ public class MethodOverLoading {
     public static void main(String... agrs){
         add(10);
         add(10,"abc");
-        MethodOverLoading t1=new MethodOverLoading();
+        TestMethod1 t1=new TestMethod1();
         t1.add(12.0, 3);
         t1.add(4, 5.0);
         t1.add(3 , 7);
