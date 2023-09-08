@@ -40,7 +40,7 @@
     "last_opened_file_path": "/home/srinath/Documents/git/java_learning/interview-tasks"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test2">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.Test1" />
       <module name="prj1" />
@@ -54,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMethod1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodOverLoading.TestMethod1" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="others.Test2" />
       <module name="prj1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MethodOverLoading.*" />
+          <option name="PATTERN" value="others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.TestMethod4" />
         <item itemvalue="Application.TestMethod3" />
         <item itemvalue="Application.TestMethod2" />
-        <item itemvalue="Application.TestMethod1" />
       </list>
     </recent_temporary>
   </component>
