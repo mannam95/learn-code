@@ -71,6 +71,17 @@ install_github_desktop() {
     echo "GitHub Desktop installed."
 }
 
+# Function to install terraform
+install_terraform() {
+    echo "Installing Terraform..."
+    sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+    wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    sudo apt update
+    sudo apt install terraform
+    echo "Terraform installed."
+}
+
 # Menu for user to select installation
 show_menu() {
     echo "Select an option to install:"
@@ -80,8 +91,9 @@ show_menu() {
     echo "4) Visual Studio Code"
     echo "5) Sublime Text"
     echo "6) GitHub Desktop"
-    echo "7) Install All"
-    echo "8) Exit"
+    echo "7) Terraform"
+    echo "8) Install All"
+    echo "9) Exit"
     read -p "Enter your choice: " choice
 
     case $choice in
@@ -104,14 +116,18 @@ show_menu() {
             install_github_desktop
             ;;
         7)
+            install_terraform
+            ;;
+        8)
             install_chrome
             install_brave
             install_docker
             install_vscode
             install_sublime
             install_github_desktop
+            install_terraform
             ;;
-        8)
+        9)
             echo "Exiting."
             exit 0
             ;;
